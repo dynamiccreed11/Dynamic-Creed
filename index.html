@@ -1,10 +1,174 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Dynamic Creed</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dynamic Creed Collective</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#f5f5f5;
+color:#111;
+}
+
+header{
+text-align:center;
+padding:30px 20px;
+background:white;
+}
+
+.logo{
+font-size:32px;
+font-weight:bold;
+}
+
+.slogan{
+color:#777;
+margin-top:5px;
+}
+
+.shop-btn{
+display:inline-block;
+margin-top:15px;
+padding:12px 25px;
+background:black;
+color:white;
+text-decoration:none;
+border-radius:30px;
+}
+
+.products{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+padding:20px;
+}
+
+.product{
+background:white;
+padding:10px;
+border-radius:12px;
+text-align:left;
+}
+
+.product img{
+width:100%;
+border-radius:10px;
+}
+
+.product-name{
+font-size:18px;
+font-weight:bold;
+margin-top:10px;
+}
+
+.price{
+font-size:18px;
+margin-top:5px;
+}
+
+.desc{
+font-size:13px;
+color:#666;
+margin-top:5px;
+}
+
+.order-btn{
+display:block;
+margin-top:12px;
+padding:10px;
+background:black;
+color:white;
+text-align:center;
+text-decoration:none;
+border-radius:8px;
+}
+
+footer{
+text-align:center;
+padding:30px;
+color:#777;
+}
+</style>
+
 </head>
+
 <body>
-<h1>DYNAMIC CREED</h1>
-<p>Stay Driven.</p>
+
+<header>
+<div class="logo">DYNAMIC CREED COLLECTIVE</div>
+<div class="slogan">Stay Driven</div>
+
+<a href="#shop" class="shop-btn">
+SHOP NOW
+</a>
+</header>
+
+<section class="products" id="shop">
+
+<div class="product">
+<img src="longsleeve.jpg">
+<div class="product-name">Dual Tone Long Sleeve</div>
+<div class="price">₦35,000</div>
+<div class="desc">
+Premium dual-tone long sleeve.
+Stay Driven.
+</div>
+
+<a class="order-btn"
+href="https://wa.me/2348069760300?text=I%20want%20to%20order%20the%20Dual%20Tone%20Long%20Sleeve">
+Order via WhatsApp
+</a>
+</div>
+
+<div class="product">
+<img src="tanktop.jpg">
+<div class="product-name">Stay Driven Tank Top</div>
+<div class="price">₦20,000</div>
+<div class="desc">
+Clean athletic streetwear tank.
+</div>
+
+<a class="order-btn"
+href="https://wa.me/2348069760300?text=I%20want%20to%20order%20the%20Stay%20Driven%20Tank%20Top">
+Order via WhatsApp
+</a>
+</div>
+
+<div class="product">
+<img src="hoodie.jpg">
+<div class="product-name">Signature Zip Hoodie</div>
+<div class="price">₦35,000</div>
+<div class="desc">
+All-over Dynamic Creed pattern.
+</div>
+
+<a class="order-btn"
+href="https://wa.me/2348069760300?text=I%20want%20to%20order%20the%20Signature%20Zip%20Hoodie">
+Order via WhatsApp
+</a>
+</div>
+
+<div class="product">
+<img src="tee.jpg">
+<div class="product-name">Creed World Tee</div>
+<div class="price">₦30,000</div>
+<div class="desc">
+Different paths. Same belief.
+</div>
+
+<a class="order-btn"
+href="https://wa.me/2348069760300?text=I%20want%20to%20order%20the%20Creed%20World%20Tee">
+Order via WhatsApp
+</a>
+</div>
+
+</section>
+
+<footer>
+© Dynamic Creed Collective
+</footer>
+
 </body>
 </html>
